@@ -478,7 +478,7 @@ html, body{
         max-height: 100%;
         position: absolute;
         left: -3000px;
-        animation: mymove 4s 1;
+        animation: mymove 30s 1;
         position: fixed;
 }
 /*
