@@ -1,0 +1,6 @@
+
+<picture>
+        <source media="(min-width: 1280px)" srcset="fix6.png">    <!--1280px-től ez a kép töltödik be -->
+        <source media="(min-width: 200px)" srcset="leo1.jpg">     <!-- 200px-től (telefonokra) ek a másik kép töltödik be -->
+        <img src="bela.jpg" class="eltunes" alt="IfItDoesntMatchAnyMedia">    <!-- ha az elöző kettő nem töltött be akkor ez fog -->
+</picture>
